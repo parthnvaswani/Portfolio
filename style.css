@@ -1,0 +1,71 @@
+/* variables */
+:root {
+  --preload-delay: 1.3s;
+  --preload-duration: 1.5s;
+  --nav-width: clamp(35px, 6vw, 70px);
+}
+
+/* default styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/* preloader */
+.preload {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  z-index: 2;
+  animation: preload var(--preload-duration) ease-in-out var(--preload-delay)
+      forwards,
+    preloadOver 0.5s ease var(--preload-delay) forwards;
+  background-color: white;
+}
+@keyframes preload {
+  to {
+    height: var(--nav-width);
+    width: var(--nav-width);
+  }
+}
+@keyframes preloadOver {
+  to {
+    background-color: transparent;
+  }
+}
+
+/* navigation */
+nav {
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  height: 100%;
+  width: var(--nav-width);
+}
+nav ul {
+  list-style: none;
+  margin-top: auto;
+  width: 100%;
+}
+nav ul li {
+  width: 70%;
+  margin: 12px auto;
+}
+.name {
+  writing-mode: vertical-rl;
+  color: white;
+  font-size: clamp(25px, 3vw, 60px);
+  display: flex;
+  align-items: center;
+}
+.name .gear {
+  background-color: rgb(241, 242, 243);
+  height: var(--nav-width);
+  width: var(--nav-width);
+  margin-bottom: 5px;
+}
