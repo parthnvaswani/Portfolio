@@ -16,7 +16,7 @@
     <script src="script.js" defer></script>
   </head>
   <body>
-    <div class="preload" onclick="window.location='/'">
+    <div class="preload">
       <svg
         width="100%"
         height="100%"
@@ -67,14 +67,102 @@
         </li>
       </ul>
     </nav>
-    <div class="hero"></div>
-    <div class="about"></div>
-    <div class="skills"></div>
-    <div class="projects"></div>
-    <div class="conclusion"></div>
-    <footer>
-      <a href="mailto:parthnvaswani@gmail.com">parthnvaswani@gmail.com</a> ©
-      Parth Vaswani. All Rights Reserved.
-    </footer>
+    <div class="container">
+      <header>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <div class="links">
+          <a href="">Resume</a>
+          <div class="contactbutt">Contact Me</div>
+        </div>
+      </header>
+      <div class="hero">
+        <h1 class="title">Designer & Full-stack Developer</h1>
+        <h3 class="desc">
+          A web designer and full-stack developer from India.<br />
+          I create bespoke websites to help people go further online.
+        </h3>
+        <div class="image">
+          <img
+            src="./Images/MyPhoto.png"
+            alt="My Photo"
+            height="100%"
+            width="100%"
+          />
+        </div>
+      </div>
+      <div class="about"></div>
+      <div class="skills"></div>
+      <div class="projects"></div>
+      <div class="conclusion"></div>
+      <footer>
+        <a href="mailto:parthnvaswani@gmail.com">parthnvaswani@gmail.com</a> ©
+        Parth Vaswani. All Rights Reserved.
+      </footer>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+      <defs>
+        <filter id="squiggly-0">
+          <feTurbulence
+            id="turbulence"
+            baseFrequency="0.02"
+            numOctaves="3"
+            result="noise"
+            seed="0"
+          />
+          <feDisplacementMap
+            id="displacement"
+            in="SourceGraphic"
+            in2="noise"
+            scale="6"
+          />
+        </filter>
+        <filter id="squiggly-1">
+          <feTurbulence
+            id="turbulence"
+            baseFrequency="0.02"
+            numOctaves="3"
+            result="noise"
+            seed="1"
+          />
+          <feDisplacementMap in="SourceGraphic" in2="noise" scale="8" />
+        </filter>
+
+        <filter id="squiggly-2">
+          <feTurbulence
+            id="turbulence"
+            baseFrequency="0.02"
+            numOctaves="3"
+            result="noise"
+            seed="2"
+          />
+          <feDisplacementMap in="SourceGraphic" in2="noise" scale="6" />
+        </filter>
+        <filter id="squiggly-3">
+          <feTurbulence
+            id="turbulence"
+            baseFrequency="0.02"
+            numOctaves="3"
+            result="noise"
+            seed="3"
+          />
+          <feDisplacementMap in="SourceGraphic" in2="noise" scale="8" />
+        </filter>
+
+        <filter id="squiggly-4">
+          <feTurbulence
+            id="turbulence"
+            baseFrequency="0.02"
+            numOctaves="3"
+            result="noise"
+            seed="4"
+          />
+          <feDisplacementMap in="SourceGraphic" in2="noise" scale="6" />
+        </filter>
+      </defs>
+    </svg>
   </body>
 </html>
