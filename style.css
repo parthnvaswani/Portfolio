@@ -25,6 +25,11 @@ html {
       forwards,
     preloadOver 0.5s ease var(--preload-delay) forwards;
   background-color: white;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.preload:hover {
+  transform: scale(1.5);
 }
 @keyframes preload {
   to {
@@ -36,6 +41,10 @@ html {
   to {
     background-color: transparent;
   }
+}
+.preload svg text {
+  font-size: 70%;
+  font-weight: bold;
 }
 
 /* navigation */
@@ -68,4 +77,21 @@ nav ul li {
   height: var(--nav-width);
   width: var(--nav-width);
   margin-bottom: 5px;
+}
+
+/* Hero */
+.hero {
+  height: 100vh;
+}
+
+/* footer */
+footer {
+  text-align: center;
+  background-color: black;
+  padding: 3vh calc(var(--nav-width) + 5px);
+  color: white;
+  font-size: clamp(15px, 3vh, 70px);
+}
+footer a {
+  color: white;
 }
