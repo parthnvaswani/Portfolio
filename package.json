@@ -11,6 +11,5 @@
     "svelte": "^3.38.2",
     "svelte-navigator": "^3.1.5",
     "vite": "^2.3.7"
-  },
-  "dependencies": {}
+  }
 }

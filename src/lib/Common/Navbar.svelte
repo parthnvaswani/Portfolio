@@ -87,6 +87,7 @@
       align-items: center;
       display: none;
       margin: auto;
+      margin-top: 2em;
     }
     .links.active {
       display: flex;

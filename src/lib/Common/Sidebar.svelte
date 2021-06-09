@@ -135,7 +135,8 @@
   img {
     transition: 0.5s;
   }
-  img:hover {
+  a:focus img,
+  a:hover img {
     transform: scale(1.3);
   }
 </style>

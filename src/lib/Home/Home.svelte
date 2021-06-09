@@ -1,9 +1,10 @@
 <script>
   import Hero from "./Hero.svelte";
+  import About from "./About.svelte";
 </script>
 
 <Hero />
-<div class="about" />
+<About />
 <div class="skills" />
 <div class="projects" />
 <div class="conclusion" />
