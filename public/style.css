@@ -1,0 +1,25 @@
+/* variables */
+:root {
+  --preload-delay: 1.3s;
+  --preload-duration: 1.5s;
+  --sidebar-width: clamp(35px, 6vw, 70px);
+}
+
+/* default styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  border-left: 1px solid #e6ecf8;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #141c3a;
+}
