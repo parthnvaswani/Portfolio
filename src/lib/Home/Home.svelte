@@ -8,3 +8,4 @@
 <div class="skills" />
 <div class="projects" />
 <div class="conclusion" />
+<!-- have a nice sunday->dynamic -->

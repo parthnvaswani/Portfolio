@@ -37,6 +37,7 @@
     border-radius: 10px;
     display: inline-block;
     padding: 5px;
+    max-width: 85%;
   }
   @keyframes titleBlip {
     from {
@@ -52,15 +53,16 @@
     font-size: clamp(10px, 4vw, 30px);
     font-weight: 100;
     margin-bottom: 2em;
+    display: inline-block;
+    max-width: 85%;
   }
   .image {
     background-color: #7510f7;
     border-radius: 50%;
     overflow: hidden;
     width: clamp(130px, 30vw, 250px);
-    display: inline-block;
+    margin: auto;
     line-height: 0;
-    position: relative;
     margin-bottom: 5em;
     cursor: zoom-in;
   }
