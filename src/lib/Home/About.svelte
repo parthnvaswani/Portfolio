@@ -32,10 +32,10 @@
   .about {
     background-color: #7510f7;
     padding-top: 20vh;
+    padding-bottom: 5vh;
     margin-top: -8px;
     color: white;
     margin-bottom: -4px;
-    padding-bottom: 10px;
   }
   .container {
     width: 55%;
@@ -54,7 +54,12 @@
   h2 {
     opacity: 0;
     transform: translateY(20px);
+  }
+  h1 {
     transition: 0.5s;
+  }
+  h2 {
+    transition: 0.5s 0.3s;
   }
   h2.intersecting,
   h1.intersecting {
@@ -64,6 +69,8 @@
   .wave {
     transform: rotate(180deg);
     line-height: 0;
+    position: relative;
+    z-index: -1;
   }
   @media (max-width: 900px) {
     h1 {

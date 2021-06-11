@@ -33,20 +33,24 @@
   .title {
     font-size: clamp(20px, 5vw, 60px);
     margin-bottom: 1em;
-    animation: titleBlip 1s ease-in-out infinite;
+    animation: titleBlip 2s ease-in-out infinite;
     border-radius: 10px;
     display: inline-block;
     padding: 5px;
     max-width: 85%;
   }
   @keyframes titleBlip {
-    from {
+    0% {
       border-left: 3px solid black;
       border-right: 3px solid black;
     }
-    to {
+    50% {
       border-left: 3px solid transparent;
       border-right: 3px solid transparent;
+    }
+    100% {
+      border-left: 3px solid black;
+      border-right: 3px solid black;
     }
   }
   .desc {
