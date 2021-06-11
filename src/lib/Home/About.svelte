@@ -1,14 +1,15 @@
 <script>
   import IntersectionObserver from "../utils/IntersectionObserver.svelte";
-  let top = -50;
+  let top = -50,
+    bottom = 1000;
 </script>
 
 <div class="about">
   <div class="container">
-    <IntersectionObserver let:intersecting {top}>
+    <IntersectionObserver let:intersecting {top} {bottom}>
       <h1 class:intersecting>Hi, I’m Parth. Nice to meet you.</h1>
     </IntersectionObserver>
-    <IntersectionObserver let:intersecting {top}>
+    <IntersectionObserver let:intersecting {top} {bottom}>
       <h2 class:intersecting>
         I am a web designer & full-stack developer from India. I've worked with
         most of the popular frameworks as a junior developer and freelancer. I
