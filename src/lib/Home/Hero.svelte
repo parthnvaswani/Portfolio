@@ -1,5 +1,6 @@
 <script>
-  import myPhoto from "../../assets/Images/MyPhoto.png";
+  import myPhotoPng from "../../assets/Images/MyPhoto.png";
+  import myPhotoWebp from "../../assets/Images/MyPhoto.webp";
   import hero from "../../assets/Images/hero.svg";
 </script>
 
@@ -10,17 +11,21 @@
     I create bespoke websites to help people go further online.
   </h2>
   <div class="image">
-    <img
-      src={myPhoto}
-      class="png"
-      alt="Parth Vaswani"
-      height="100%"
-      width="100%"
-      draggable="false"
-    />
+    <picture>
+      <source srcset={myPhotoWebp} type="image/webp" />
+      <img
+        src={myPhotoPng}
+        class="png"
+        alt="Parth Vaswani"
+        height="100%"
+        width="100%"
+        draggable="false"
+        loading="lazy"
+      />
+    </picture>
   </div>
   <div class="heroimg">
-    <img src={hero} alt="Tech" width="80%" />
+    <img src={hero} alt="Tech" width="80%" loading="lazy" />
   </div>
 </div>
 

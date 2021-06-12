@@ -55,16 +55,17 @@
   </div>
   <ul>
     <li>
-      <a href="https://github.com/parthnvaswani/" target="_blank"
+      <a href="https://github.com/parthnvaswani/" target="blank"
         ><img src={githubImg} alt="GitHub" width="100%" /></a
       >
     </li>
     <li>
       <a
         href="https://www.linkedin.com/in/parth-vaswani-80b427174/"
-        target="_blank"><img src={linkedinImg} alt="LinkedIn" width="100%" /></a
+        target="blank"><img src={linkedinImg} alt="LinkedIn" width="100%" /></a
       >
     </li>
+    <!-- insta twitter -->
   </ul>
 </div>
 

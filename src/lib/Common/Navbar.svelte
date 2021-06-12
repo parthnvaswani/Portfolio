@@ -13,7 +13,7 @@
     <span class="bar" />
   </div>
   <div class="links" class:active>
-    <a href="Docs/Parth_Resume.pdf">Resume</a>
+    <a href="Docs/Parth_Resume.pdf" target="blank">Resume</a>
     <button class="contactbutt">Contact Me</button>
   </div>
 </header>

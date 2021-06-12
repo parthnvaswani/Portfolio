@@ -41,7 +41,48 @@ I create bespoke websites to help people go further online."
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     <title>Parth Vaswani · Portfolio</title>
-    <link rel="stylesheet" href="/style.css" />
+    <style>
+      /* variables */
+      :root {
+        --preload-delay: 1s;
+        --preload-duration: 1s;
+        --sidebar-width: clamp(35px, 6vw, 70px);
+      }
+
+      /* default styling */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+
+      /* scrollbar */
+      ::-webkit-scrollbar {
+        width: 6px;
+        border-left: 1px solid #e6ecf8;
+      }
+      ::-webkit-scrollbar-thumb {
+        background-color: #141c3a;
+      }
+
+      /* Remove animations for prefers reduce motion */
+      @media (prefers-reduced-motion: reduce) {
+        *,
+        *::after,
+        *::before {
+          animation-duration: 0ms !important;
+          animation-iteration-count: 1 !important;
+          transition-duration: 0ms !important;
+          transition-delay: 0ms !important;
+        }
+        html {
+          scroll-behavior: auto;
+        }
+      }
+    </style>
   </head>
   <body>
     <div id="app"></div>
