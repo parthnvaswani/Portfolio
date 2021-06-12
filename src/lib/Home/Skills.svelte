@@ -129,6 +129,7 @@
       padding: 50px 30px;
     }
     .column:nth-child(2) {
+      border: transparent;
       border-top: 1px solid #e6ecf8;
       border-bottom: 1px solid #e6ecf8;
     }
