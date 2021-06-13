@@ -1,6 +1,9 @@
 <script>
   import githubImg from "../../assets/Images/github.svg";
   import linkedinImg from "../../assets/Images/linkedin.svg";
+  import instagramImg from "../../assets/Images/instagram.svg";
+  import twitterImg from "../../assets/Images/twitter.svg";
+
   let dur = "0.2s";
   let changeLocation = false;
   const style = getComputedStyle(document.body);
@@ -66,7 +69,16 @@
         target="blank"><img src={linkedinImg} alt="LinkedIn" width="100%" /></a
       >
     </li>
-    <!-- insta twitter -->
+    <li>
+      <a href="https://www.instagram.com/parthnvaswani/" target="blank"
+        ><img src={instagramImg} alt="Instagram" width="100%" /></a
+      >
+    </li>
+    <li>
+      <a href="https://twitter.com/parthnvaswani" target="blank"
+        ><img src={twitterImg} alt="Twitter" width="100%" /></a
+      >
+    </li>
   </ul>
 </div>
 
@@ -139,6 +151,6 @@
   }
   a:focus img,
   a:hover img {
-    transform: scale(1.3);
+    transform: scale(1.2);
   }
 </style>

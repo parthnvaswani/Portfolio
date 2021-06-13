@@ -752,7 +752,7 @@
     stroke-dashoffset: 900;
   }
   .heroimg svg.intersecting {
-    transition: 1.5s ease-out 0.5s;
+    transition: 1.5s ease-out 0.2s;
     stroke-dashoffset: 0;
   }
   .hero {
