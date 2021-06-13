@@ -10,8 +10,8 @@
       <img height="48px" width="40px" src={designer} alt="designer" />
       <h1>Designer</h1>
       <p>
-        I design simplistic and clean interfaces with suttle animations for eye
-        candy.
+        I design simplistic and clean interfaces with suttle animations for some
+        eye candy.
       </p>
       <p class="title">Things I enjoy designing:</p>
       <p>UI & UX, Websites, Apps, Logos, Illustrations</p>
@@ -48,7 +48,10 @@
     <div class="column">
       <img height="48px" width="40px" src={backend} alt="backend" />
       <h1>Backend-end Developer</h1>
-      <p>I design, build, maintain and test back-end based applications.</p>
+      <p>
+        I design, build, maintain and test back-end applications which are
+        simple and scalable.
+      </p>
       <p class="title">Tech I use:</p>
       <p>NodeJS, ExpressJS, SQL, MongoDB, Golang, PHP</p>
       <p class="title">Dev Tools:</p>

@@ -15,7 +15,8 @@
         most of the popular frameworks as a junior developer and freelancer. I
         specialise in creating interactive experiences, functional interfaces
         and secure & scalable backend. I am bachelors in computer applications
-        and love adopting and working with latest web technologies.
+        and pursuing masters in same. I love adopting and working with latest
+        web technologies.
       </h2>
     </IntersectionObserver>
   </div>

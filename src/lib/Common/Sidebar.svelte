@@ -11,6 +11,7 @@
   setTimeout(() => {
     dur = "0.9259259259259258s";
     changeLocation = true;
+    document.body.style.overflowY = "scroll";
   }, timeout);
   function preloadClicked() {
     if (changeLocation) window.location = "/";
