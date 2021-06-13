@@ -27,7 +27,6 @@
     margin-left: auto;
   }
   a {
-    outline: none;
     display: inline-block;
     padding: 10px;
     text-decoration: none;
@@ -50,7 +49,6 @@
     transform: scaleX(1);
   }
   .contactbutt {
-    outline: none;
     margin-left: 20px;
     display: inline-block;
     border: 2px solid black;
