@@ -8,10 +8,10 @@
     text-align: center;
     background-color: black;
     padding: 3vh calc(var(--sidebar-width) + 5px);
-    color: white;
+    color: var(--secondary-color);
     font-size: clamp(10px, 1.8vh, 30px);
   }
   footer a {
-    color: white;
+    color: var(--secondary-color);
   }
 </style>

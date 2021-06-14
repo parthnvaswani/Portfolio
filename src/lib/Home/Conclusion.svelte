@@ -53,8 +53,8 @@
 <style>
   .conclusion {
     padding: 3vh 0;
-    background-color: #7510f7;
-    color: white;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
     text-align: center;
   }
   .webicon {
@@ -71,20 +71,20 @@
   .credit1 {
     font-size: large;
     font-weight: bold;
-    color: white;
+    color: var(--secondary-color);
     text-decoration: none;
   }
   .credit2 {
     margin-top: 10px;
-    color: white;
+    color: var(--secondary-color);
     text-decoration: none;
     display: inline-flex;
     align-items: center;
   }
   .contactbutt {
     display: inline-block;
-    border: 2px solid white;
-    color: white;
+    border: 2px solid var(--secondary-color);
+    color: var(--secondary-color);
     padding: 10px;
     cursor: pointer;
     border-radius: 290486px;
@@ -93,7 +93,7 @@
   }
   .contactbutt:hover,
   .contactbutt:focus {
-    color: #7510f7;
-    background-color: white;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
   }
 </style>

@@ -25,18 +25,20 @@
   <svg viewBox="0 0 879 256" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path
       d="M679.273 0C518.415 0 112.628 140.749 0 14.7888V256H879V46.9163C866.152 49.4661 801.912 0 679.273 0Z"
-      fill="#7510F7"
     />
   </svg>
 </div>
 
 <style>
+  path {
+    fill: var(--primary-color);
+  }
   .about {
-    background-color: #7510f7;
+    background-color: var(--primary-color);
     padding-top: 20vh;
     padding-bottom: 5vh;
     margin-top: -8px;
-    color: white;
+    color: var(--secondary-color);
     margin-bottom: -4px;
   }
   .container {

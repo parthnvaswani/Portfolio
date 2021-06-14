@@ -92,7 +92,7 @@
     animation: preload var(--preload-duration) ease-in-out var(--preload-delay)
         forwards,
       preloadOver 0.5s ease var(--preload-delay) forwards;
-    background-color: white;
+    background-color: var(--secondary-color);
     cursor: pointer;
     transition: 0.5s;
   }
@@ -135,7 +135,7 @@
   }
   .name {
     writing-mode: vertical-rl;
-    color: white;
+    color: var(--secondary-color);
     font-size: clamp(25px, 3vw, 60px);
     display: flex;
     align-items: center;

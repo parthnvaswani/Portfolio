@@ -79,7 +79,7 @@
     display: flex;
     border-radius: 12px;
     box-shadow: 0 5px 5px 0 rgb(233 240 243 / 50%), 0 0 0 1px #e6ecf8;
-    background-color: white;
+    background-color: var(--secondary-color);
     overflow: hidden;
     max-width: 1200px;
     margin: auto;
@@ -116,7 +116,7 @@
   .title {
     margin-top: 1em;
     margin-bottom: 0.5em;
-    color: #7510f7;
+    color: var(--primary-color);
   }
   ul {
     list-style: none;

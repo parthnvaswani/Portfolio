@@ -61,7 +61,7 @@
   }
   .contactbutt:hover,
   .contactbutt:focus {
-    color: white;
+    color: var(--secondary-color);
     background-color: black;
   }
   .hamburger {
