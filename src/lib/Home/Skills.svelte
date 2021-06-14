@@ -17,12 +17,12 @@
       <p>UI & UX, Websites, Apps, Logos, Illustrations</p>
       <p class="title">Design Tools:</p>
       <ul>
-        <li>Figma</li>
         <li>GIMP</li>
+        <li>Figma</li>
         <li>Spline</li>
         <li>Framer</li>
-        <li>Pen &amp; Paper</li>
         <li>Webflow</li>
+        <li>Pen &amp; Paper</li>
       </ul>
     </div>
     <div class="column">
@@ -33,16 +33,16 @@
         things without major dependencies.
       </p>
       <p class="title">Tech I use:</p>
-      <p>HTML, CSS, Javascript, React, Vue, Svelte, React Native</p>
+      <p>HTML, CSS, Javascript, React, Vue, Svelte, React Native, Vite</p>
       <p class="title">Dev Tools:</p>
       <ul>
-        <li>VS Code</li>
-        <li>Chrome Dev Tools</li>
         <li>Git</li>
-        <li>Github</li>
-        <li>Terminal</li>
         <li>Yarn</li>
+        <li>Github</li>
         <li>Squoosh</li>
+        <li>VS Code</li>
+        <li>Terminal</li>
+        <li>Chrome Dev Tools</li>
       </ul>
     </div>
     <div class="column">
@@ -56,12 +56,12 @@
       <p>NodeJS, ExpressJS, SQL, MongoDB, Golang, PHP</p>
       <p class="title">Dev Tools:</p>
       <ul>
+        <li>Git</li>
+        <li>Yarn</li>
+        <li>Github</li>
         <li>Postman</li>
         <li>VS Code</li>
-        <li>Git</li>
-        <li>Github</li>
         <li>Terminal</li>
-        <li>Yarn</li>
         <li>MongoDB Compass</li>
       </ul>
     </div>

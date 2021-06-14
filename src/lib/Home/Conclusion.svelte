@@ -30,16 +30,23 @@
       class="credit1"
       href="https://www.flaticon.com/authors/eucalyp"
       target="blank"
+      rel="noopener"
     >
       Eucalyp
     </a>
     &
-    <a class="credit1" href="https://iconmonstr.com/" target="blank">
+    <a
+      class="credit1"
+      href="https://iconmonstr.com/"
+      target="blank"
+      rel="noopener"
+    >
       Iconmonstr
     </a>
     <br />
-    <a href="https://svelte.dev/" class="credit2" target="blank">
-      Made with &nbsp; <img
+    <a href="https://svelte.dev/" class="credit2" target="blank" rel="noopener">
+      Made with &nbsp;
+      <img
         height="35"
         width="35"
         src={svelteImg}

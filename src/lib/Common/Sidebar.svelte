@@ -59,25 +59,32 @@
   </div>
   <ul>
     <li>
-      <a href="https://github.com/parthnvaswani/" target="blank"
-        ><img src={githubImg} alt="GitHub" width="100%" /></a
-      >
+      <a href="https://github.com/parthnvaswani/" target="blank" rel="noopener">
+        <img src={githubImg} alt="GitHub" width="100%" />
+      </a>
     </li>
     <li>
       <a
         href="https://www.linkedin.com/in/parth-vaswani-80b427174/"
-        target="blank"><img src={linkedinImg} alt="LinkedIn" width="100%" /></a
+        target="blank"
+        rel="noopener"
       >
+        <img src={linkedinImg} alt="LinkedIn" width="100%" />
+      </a>
     </li>
     <li>
-      <a href="https://www.instagram.com/parthnvaswani/" target="blank"
-        ><img src={instagramImg} alt="Instagram" width="100%" /></a
+      <a
+        href="https://www.instagram.com/parthnvaswani/"
+        target="blank"
+        rel="noopener"
       >
+        <img src={instagramImg} alt="Instagram" width="100%" />
+      </a>
     </li>
     <li>
-      <a href="https://twitter.com/parthnvaswani" target="blank"
-        ><img src={twitterImg} alt="Twitter" width="100%" /></a
-      >
+      <a href="https://twitter.com/parthnvaswani" target="blank" rel="noopener">
+        <img src={twitterImg} alt="Twitter" width="100%" />
+      </a>
     </li>
   </ul>
 </div>
