@@ -4,6 +4,7 @@
   import Sidebar from "./lib/Common/Sidebar.svelte";
   import Footer from "./lib/Common/Footer.svelte";
   import Home from "./lib/Home/Home.svelte";
+  import NotFound from "./lib/404/NotFound.svelte";
 </script>
 
 <Router primary={false}>
@@ -17,6 +18,9 @@
       </Route>
       <Route path="projects" />
       <Route path="project" />
+      <Route>
+        <NotFound />
+      </Route>
     </main>
     <Footer />
   </div>
