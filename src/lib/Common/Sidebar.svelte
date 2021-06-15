@@ -124,7 +124,7 @@
 
   /* navigation */
   .sidebar {
-    background-color: gray;
+    background-color: #393e46;
     display: flex;
     flex-direction: column;
     position: fixed;
