@@ -18,7 +18,6 @@
     margin: auto;
     display: block;
     width: fit-content;
-    text-decoration: none;
     font-weight: 600;
     font-size: larger;
     color: black;

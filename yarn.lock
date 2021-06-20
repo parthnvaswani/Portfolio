@@ -188,6 +188,11 @@ supports-color@^7.1.0:
   dependencies:
     has-flag "^4.0.0"
 
+svelte-carousel@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/svelte-carousel/-/svelte-carousel-1.0.6.tgz#cf4d83692cde38c3666c03884495eb3fd419bb8a"
+  integrity sha512-KTNhSb25yPT9MPPGfTuYfMw5G5uywkxSnCOwhWcrtO88y2L43XEjvu6sHoMwKJzsx8ivI4w/iayf8ov2VUhjNQ==
+
 svelte-hmr@^0.14.4:
   version "0.14.4"
   resolved "https://registry.yarnpkg.com/svelte-hmr/-/svelte-hmr-0.14.4.tgz#b7ef2bfeef23916e0e912828c50645ca572ac355"

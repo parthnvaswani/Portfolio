@@ -53,7 +53,7 @@
         simple and scalable.
       </p>
       <p class="title">Tech I use:</p>
-      <p>NodeJS, ExpressJS, SQL, MongoDB, Golang, PHP</p>
+      <p>NodeJS, ExpressJS, SQL, MongoDB, Fastify, PHP</p>
       <p class="title">Dev Tools:</p>
       <ul>
         <li>Git</li>

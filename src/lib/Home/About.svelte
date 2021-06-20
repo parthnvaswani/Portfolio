@@ -1,10 +1,10 @@
 <script>
   import IntersectionObserver from "../utils/IntersectionObserver.svelte";
   let top = -50,
-    bottom = 1000;
+    bottom = 10000;
 </script>
 
-<div class="about">
+<section class="about">
   <div class="container">
     <IntersectionObserver let:intersecting {top} {bottom}>
       <h1 class:intersecting>Hi, I’m Parth. Nice to meet you.</h1>
@@ -20,7 +20,7 @@
       </h2>
     </IntersectionObserver>
   </div>
-</div>
+</section>
 <div class="wave">
   <svg viewBox="0 0 879 256" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path

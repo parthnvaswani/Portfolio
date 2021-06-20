@@ -29,7 +29,6 @@
   a {
     display: inline-block;
     padding: 10px;
-    text-decoration: none;
     color: black;
     position: relative;
   }

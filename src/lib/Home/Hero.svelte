@@ -5,7 +5,7 @@
   import HeroSvg from "./HeroSVG.svelte";
 </script>
 
-<div class="hero">
+<section class="hero">
   <h1 class="title">Designer & Full-stack Developer</h1>
   <br />
   <h2 class="desc">
@@ -27,11 +27,11 @@
     </picture>
   </div>
   <div class="heroimg">
-    <IntersectionObserver let:intersecting top={-100} bottom={1000}>
+    <IntersectionObserver let:intersecting top={-100} bottom={10000}>
       <HeroSvg {intersecting} />
     </IntersectionObserver>
   </div>
-</div>
+</section>
 
 <style>
   .hero {

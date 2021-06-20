@@ -5,6 +5,7 @@
   import Footer from "./lib/Common/Footer.svelte";
   import Home from "./lib/Home/Home.svelte";
   import NotFound from "./lib/404/NotFound.svelte";
+  import Project from "./lib/Project/Project.svelte";
 </script>
 
 <Router primary={false}>
@@ -16,8 +17,9 @@
       <Route path="/">
         <Home />
       </Route>
-      <Route path="projects" />
-      <Route path="project" />
+      <Route path="project/:name" let:params>
+        <Project name={params.name} />
+      </Route>
       <Route>
         <NotFound />
       </Route>

@@ -13,7 +13,7 @@
   ][new Date().getDay()];
 </script>
 
-<div class="conclusion">
+<section class="conclusion">
   <a href="/">
     <img
       src={ogImg}
@@ -55,7 +55,7 @@
       />
     </a>
   </div>
-</div>
+</section>
 
 <style>
   .conclusion {
@@ -79,12 +79,11 @@
     font-size: large;
     font-weight: bold;
     color: var(--secondary-color);
-    text-decoration: none;
   }
   .credit2 {
     margin-top: 10px;
     color: var(--secondary-color);
-    text-decoration: none;
+
     display: inline-flex;
     align-items: center;
   }
