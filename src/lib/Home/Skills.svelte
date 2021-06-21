@@ -7,7 +7,13 @@
 <section>
   <div class="container">
     <div class="column">
-      <img height="48px" width="40px" src={designer} alt="designer" />
+      <img
+        height="48px"
+        width="40px"
+        src={designer}
+        alt="designer"
+        loading="lazy"
+      />
       <h1>Designer</h1>
       <p>
         I design simplistic and clean interfaces with suttle animations for some
@@ -26,7 +32,13 @@
       </ul>
     </div>
     <div class="column">
-      <img height="48px" width="40px" src={frontend} alt="frontend" />
+      <img
+        height="48px"
+        width="40px"
+        src={frontend}
+        alt="frontend"
+        loading="lazy"
+      />
       <h1>Front-end Developer</h1>
       <p>
         I like to adopt new technologies, and most of the time I enjoy building
@@ -48,7 +60,13 @@
       </ul>
     </div>
     <div class="column">
-      <img height="48px" width="40px" src={backend} alt="backend" />
+      <img
+        height="48px"
+        width="40px"
+        src={backend}
+        alt="backend"
+        loading="lazy"
+      />
       <h1>Backend-end Developer</h1>
       <p>
         I design, build, maintain and test back-end applications which are

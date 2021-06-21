@@ -26,6 +26,7 @@
       alt="website icon"
       height="52"
       width="52"
+      loading="lazy"
     />
   </a>
   <div class="endnote">Have a nice {day}</div>

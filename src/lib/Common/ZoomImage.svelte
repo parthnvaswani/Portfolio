@@ -5,7 +5,7 @@
 </script>
 
 <div class="zoom-image" class:active on:click={zoomOut}>
-  <img src={image} alt="" />
+  <img src={image} alt="" loading="lazy" />
 </div>
 
 <style>

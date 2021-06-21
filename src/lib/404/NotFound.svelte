@@ -3,7 +3,13 @@
 </script>
 
 <div class="container">
-  <img src={pageNotFound} alt="Not Found" width="80%" height="85%" />
+  <img
+    src={pageNotFound}
+    alt="Not Found"
+    width="80%"
+    height="85%"
+    loading="lazy"
+  />
 </div>
 <a href="https://undraw.co/" target="blank" rel="noopener">unDraw</a>
 

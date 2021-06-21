@@ -19,7 +19,7 @@
 
 <div class="card">
   <div class="image-container" on:click={zoomIn}>
-    <img src={images[0]} alt="" class="poster" />
+    <img src={images[0]} alt="" class="poster" loading="lazy" />
   </div>
   <div class="desc-container">
     <div class="desc__content">
@@ -31,11 +31,23 @@
       </ul>
       <div class="links">
         <a href={website} class="link">
-          <img src={preview} alt="visit site" height="100%" width="100%" />
+          <img
+            src={preview}
+            alt="visit site"
+            height="100%"
+            width="100%"
+            loading="lazy"
+          />
         </a>
         {#if source}
           <a href={source} class="link">
-            <img src={github} alt="view code" height="105%" width="100%" />
+            <img
+              src={github}
+              alt="view code"
+              height="105%"
+              width="100%"
+              loading="lazy"
+            />
           </a>
         {/if}
       </div>

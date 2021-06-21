@@ -60,7 +60,7 @@
   <ul>
     <li>
       <a href="https://github.com/parthnvaswani/" target="blank" rel="noopener">
-        <img src={githubImg} alt="GitHub" width="100%" />
+        <img src={githubImg} alt="GitHub" width="100%" loading="lazy" />
       </a>
     </li>
     <li>
@@ -69,7 +69,7 @@
         target="blank"
         rel="noopener"
       >
-        <img src={linkedinImg} alt="LinkedIn" width="100%" />
+        <img src={linkedinImg} alt="LinkedIn" width="100%" loading="lazy" />
       </a>
     </li>
     <li>
@@ -83,7 +83,7 @@
     </li>
     <li>
       <a href="https://twitter.com/parthnvaswani" target="blank" rel="noopener">
-        <img src={twitterImg} alt="Twitter" width="100%" />
+        <img src={twitterImg} alt="Twitter" width="100%" loading="lazy" />
       </a>
     </li>
   </ul>
