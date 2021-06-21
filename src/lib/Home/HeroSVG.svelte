@@ -277,7 +277,12 @@
       />
     </g>
   </g>
-  <a href="https://code.visualstudio.com/" target="blank" rel="noopener">
+  <a
+    href="https://code.visualstudio.com/"
+    target="blank"
+    rel="noopener"
+    aria-label="Visual Studio Code homepage"
+  >
     <g id="Vscode">
       <path
         id="Vector_6"
@@ -296,7 +301,12 @@
       />
     </g>
   </a>
-  <a href="https://www.linuxfoundation.org/" target="blank" rel="noopener">
+  <a
+    href="https://www.linuxfoundation.org/"
+    target="blank"
+    rel="noopener"
+    aria-label="Linux Foundation"
+  >
     <g id="Linux">
       <g id="Vector_9" filter="url(#filter0_f)">
         <path
@@ -449,7 +459,12 @@
       />
     </g>
   </a>
-  <a href="https://svelte.dev/" target="blank" rel="noopener">
+  <a
+    href="https://svelte.dev/"
+    target="blank"
+    rel="noopener"
+    aria-label="Svelte homepage"
+  >
     <g id="Svelte">
       <path
         id="Vector_37"
@@ -463,7 +478,12 @@
       />
     </g>
   </a>
-  <a href="https://www.figma.com/" target="blank" rel="noopener">
+  <a
+    href="https://www.figma.com/"
+    target="blank"
+    rel="noopener"
+    aria-label="Figma website"
+  >
     <g id="Figma">
       <path
         id="Vector_39"
@@ -558,6 +578,7 @@
     href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
     target="blank"
     rel="noopener"
+    aria-label="Javascript resources"
   >
     <g id="JS">
       <path

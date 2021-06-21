@@ -23,7 +23,7 @@
   </div>
   <div class="desc-container">
     <div class="desc__content">
-      <h4 class="project-title">{title}</h4>
+      <div class="project-title">{title}</div>
       <ul class="tech-used">
         {#each technologies as technology}
           <li>{technology}</li>
@@ -85,6 +85,8 @@
   .project-title {
     text-transform: uppercase;
     margin-bottom: 5px;
+    font-size: 1em;
+    font-weight: bolder;
   }
   .tech-used {
     list-style: none;
