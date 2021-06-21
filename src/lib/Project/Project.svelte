@@ -2,7 +2,10 @@
   import projects from "../../data/projects";
   import ZoomImage from "../Common/ZoomImage.svelte";
   import Carousel from "svelte-carousel";
+
   export let name;
+
+  window.scrollTo(0, 0);
 
   const { title, about, description, images, tech, resources, website } =
     projects.filter((project) => project.name === name)[0];

@@ -3,6 +3,7 @@
   import linkedinImg from "../../assets/Images/linkedin.svg";
   import instagramImg from "../../assets/Images/instagram.svg";
   import twitterImg from "../../assets/Images/twitter.svg";
+  import { navigate } from "svelte-navigator";
 
   let dur = "0.2s";
   let changeLocation = false;
@@ -17,7 +18,7 @@
     document.body.style.overflowY = "scroll";
   }, timeout);
   function preloadClicked() {
-    if (changeLocation) window.location = "/";
+    if (changeLocation) navigate("/");
   }
 </script>
 
@@ -135,6 +136,7 @@
     list-style: none;
     margin-top: auto;
     width: 100%;
+    background-color: grey;
   }
   li {
     width: 70%;
