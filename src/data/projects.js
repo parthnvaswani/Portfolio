@@ -17,6 +17,9 @@ import multigameImg2 from "../assets/Images/projects/multigame/2.jpg";
 import multigameImg3 from "../assets/Images/projects/multigame/3.jpg";
 import multigameImg4 from "../assets/Images/projects/multigame/4.jpg";
 import portfolioImg from "../assets/Images/projects/portfolio/portfolio.jpg";
+import portfolioImg1 from "../assets/Images/projects/portfolio/1.jpg";
+import portfolioImg2 from "../assets/Images/projects/portfolio/2.jpg";
+import portfolioImg3 from "../assets/Images/projects/portfolio/3.jpg";
 import admissionportalImg from "../assets/Images/projects/admissionportal/admissionportal.jpg";
 import admissionportalImg1 from "../assets/Images/projects/admissionportal/1.jpg";
 import admissionportalImg2 from "../assets/Images/projects/admissionportal/2.jpg";
@@ -154,7 +157,7 @@ const projects = [
     technologies: ["Svelte", "Vite", "Firebase"],
     source: "https://github.com/parthnvaswani/Portfolio",
     website: window.location.origin,
-    images: [portfolioImg],
+    images: [portfolioImg, portfolioImg1, portfolioImg2, portfolioImg3],
     description:
       "Built with Svelte this website is a showcase of my recent projects as a Full-Stack Web Developer.",
     about: `<p class="proj_about">The idea behind this project was to create a showcase of everything I've worked on in the past. I have used the technologies that I love the most.</p>
