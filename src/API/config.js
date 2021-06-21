@@ -1,4 +1,5 @@
 import firebase from "firebase/app";
+import "firebase/app-check";
 
 import "firebase/firestore";
 
@@ -13,5 +14,9 @@ const firebaseConfig = {
 };
 
 firebase.initializeApp(firebaseConfig);
+
+const appCheck = firebase.appCheck();
+
+appCheck.activate("6Lf3IkobAAAAAE6wesKFGHLgYrbAaj3zU9gUSiK5");
 
 export default firebase;
