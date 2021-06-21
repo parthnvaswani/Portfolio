@@ -1,6 +1,7 @@
 <script>
   import svelteImg from "../../assets/Images/madewithsvelte.png";
   import ogImg from "../../assets/Images/ogimage.jpg";
+  import { contactActive } from "../../store/store";
 
   const day = [
     "Sunday",
@@ -11,6 +12,10 @@
     "Friday",
     "Saturday",
   ][new Date().getDay()];
+
+  function openContact() {
+    contactActive.update(() => true);
+  }
 </script>
 
 <section class="conclusion">
@@ -24,7 +29,7 @@
     />
   </a>
   <div class="endnote">Have a nice {day}</div>
-  <button class="contactbutt">Contact Me</button>
+  <button class="contactbutt" on:click={openContact}>Contact Me</button>
   <div class="credits">
     Icons made by <a
       class="credit1"

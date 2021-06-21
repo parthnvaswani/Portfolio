@@ -6,6 +6,7 @@
   import Home from "./lib/Home/Home.svelte";
   import NotFound from "./lib/404/NotFound.svelte";
   import Project from "./lib/Project/Project.svelte";
+  import ContactForm from "./lib/Common/ContactForm.svelte";
 </script>
 
 <Router primary={false}>
@@ -24,6 +25,7 @@
         <NotFound />
       </Route>
     </main>
+    <ContactForm />
     <Footer />
   </div>
 </Router>

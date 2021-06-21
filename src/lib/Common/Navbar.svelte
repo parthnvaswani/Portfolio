@@ -1,8 +1,13 @@
 <script>
+  import { contactActive } from "../../store/store";
+
   let active = false;
 
   function mobileMenu() {
     active = !active;
+  }
+  function openContact() {
+    contactActive.update(() => true);
   }
 </script>
 
@@ -14,7 +19,7 @@
   </div>
   <div class="links" class:active>
     <a href="Docs/Parth_Resume.pdf" target="blank">Resume</a>
-    <button class="contactbutt">Contact Me</button>
+    <button class="contactbutt" on:click={openContact}>Contact Me</button>
   </div>
 </header>
 
