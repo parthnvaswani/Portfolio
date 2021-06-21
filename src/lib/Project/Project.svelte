@@ -1,10 +1,22 @@
 <script>
   import projects from "../../data/projects";
+  import ZoomImage from "../Common/ZoomImage.svelte";
   import Carousel from "svelte-carousel";
   export let name;
 
   const { title, about, description, images, tech, resources, website } =
     projects.filter((project) => project.name === name)[0];
+
+  let active = false,
+    image;
+
+  function zoomIn(img) {
+    image = img;
+    active = true;
+  }
+  function zoomOut() {
+    active = false;
+  }
 </script>
 
 <div class="container">
@@ -46,7 +58,13 @@
         <i />
       </div>
       {#each images as image}
-        <img src={image} alt={`${title} website`} loading="lazy" />
+        <img
+          src={image}
+          alt={`${title} website`}
+          loading="lazy"
+          class="image"
+          on:click={() => zoomIn(image)}
+        />
       {/each}
       <div
         slot="next"
@@ -87,6 +105,7 @@
       </ul>
     </div>
   </div>
+  <ZoomImage {image} {active} {zoomOut} />
 </div>
 
 <style>

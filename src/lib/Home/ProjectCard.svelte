@@ -2,6 +2,7 @@
   import { Link } from "svelte-navigator";
   import github from "../../assets/Images/github.svg";
   import preview from "../../assets/Images/preview.svg";
+  import ZoomImage from "../Common/ZoomImage.svelte";
 
   export let project;
 
@@ -41,31 +42,10 @@
       <Link to={`/project/${name}`}><div class="more-btn">View more</div></Link>
     </div>
   </div>
-  <div class="zoom-image" class:active on:click={zoomOut}>
-    <img src={images[0]} alt="" />
-  </div>
+  <ZoomImage image={images[0]} {active} {zoomOut} />
 </div>
 
 <style>
-  .zoom-image {
-    cursor: zoom-out;
-    display: none;
-    z-index: 3;
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: 100vw;
-    background-color: rgba(0, 0, 0, 0.7);
-  }
-  .zoom-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-  }
-  .zoom-image.active {
-    display: block;
-  }
   .card {
     position: relative;
     width: calc(clamp(280px, 28vw, 550px) + 15px);
