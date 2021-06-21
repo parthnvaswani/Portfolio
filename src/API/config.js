@@ -1,7 +1,4 @@
-import firebase from "firebase/app";
-import "firebase/app-check";
-
-import "firebase/firestore";
+import { initializeApp } from "firebase/app";
 
 const firebaseConfig = {
   apiKey: "AIzaSyBdGz1Ss_Ncbxf5Gi8_CBwgXNKUUWgJTv8",
@@ -13,10 +10,6 @@ const firebaseConfig = {
   measurementId: "G-1X4LDFTC62",
 };
 
-firebase.initializeApp(firebaseConfig);
+const firebaseApp = initializeApp(firebaseConfig);
 
-const appCheck = firebase.appCheck();
-
-appCheck.activate("6Lf3IkobAAAAAE6wesKFGHLgYrbAaj3zU9gUSiK5");
-
-export default firebase;
+export default firebaseApp;
