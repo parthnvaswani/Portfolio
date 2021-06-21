@@ -14,6 +14,7 @@
       {description}
     </h2>
     <a href={website} target="blank">
+      <span>Visit the website</span>
       <svg
         class="i-svg"
         version="1.1"
@@ -27,7 +28,7 @@
           d="M36.999,36.998H13V13.089L19,13V7h-12v35.998h35.998V27.999h-6V36.998z M25,7l6,6l-9,9l6,6l8.999-9l6,6V7H25z"
           fill="#ffffff"
         />
-      </svg><span>Visit the website</span>
+      </svg>
     </a>
   </header>
   <div class="carousal">
@@ -89,6 +90,9 @@
 </div>
 
 <style>
+  .image {
+    cursor: zoom-in;
+  }
   .custom-arrow {
     width: 20px;
     background-color: #000000;
@@ -137,10 +141,10 @@
   header h1 {
     font-family: MontSerrat, Tahoma, Arial, sans-serif;
     font-size: 2.625em;
-    line-height: 1.45em;
+    margin-bottom: 20px;
+    line-height: 1em;
     font-weight: 700;
     letter-spacing: -2px;
-    margin-bottom: 0.1em;
     text-transform: lowercase;
     width: 100%;
     text-shadow: 2px 2px 0 rgb(0 0 0 / 15%);
@@ -217,5 +221,10 @@
     text-transform: uppercase;
     color: black;
     word-wrap: break-word;
+  }
+  @media (max-width: 400px) {
+    .section:nth-child(1) {
+      text-align: left;
+    }
   }
 </style>

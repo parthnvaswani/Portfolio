@@ -33,7 +33,9 @@
         things without major dependencies.
       </p>
       <p class="title">Tech I use:</p>
-      <p>HTML, CSS, Javascript, React, Vue, Svelte, React Native, Vite</p>
+      <p>
+        HTML, CSS, Javascript, React, Vue, Svelte, React Native, Vite, Firebase
+      </p>
       <p class="title">Dev Tools:</p>
       <ul>
         <li>Git</li>

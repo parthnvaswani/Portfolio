@@ -121,7 +121,7 @@ const projects = [
       "JWT",
       "REST API",
       "Web Security",
-      "PWA",
+      "Nodemailer",
       "SEO",
       "Agile/Trello",
     ],
@@ -132,7 +132,7 @@ const projects = [
         linkText: "https://admission-portal.herokuapp.com/",
       },
       {
-        text: "The API documentation ia online at",
+        text: "The API documentation is online at",
         link: "https://documenter.getpostman.com/view/11722625/TWDTNzj7",
         linkText: "API Docs",
       },

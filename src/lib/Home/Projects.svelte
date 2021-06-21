@@ -4,7 +4,7 @@
 </script>
 
 <section>
-  <h1 class="title">My Projects</h1>
+  <h1 class="title">My Recent Projects</h1>
   <div class="projects">
     {#each projects as project}
       <ProjectCard {project} />
