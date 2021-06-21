@@ -10,9 +10,9 @@
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "1.0.0-next.11",
     "svelte": "^3.38.2",
-    "svelte-carousel": "^1.0.6",
+    "svelte-carousel": "^1.0.7",
     "svelte-navigator": "^3.1.5",
-    "vite": "^2.3.7"
+    "vite": "^2.3.8"
   },
   "dependencies": {
     "firebase": "^8.6.8"
