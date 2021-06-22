@@ -2,6 +2,7 @@
   import projects from "../../data/projects";
   import ZoomImage from "../Common/ZoomImage.svelte";
   import Carousel from "svelte-carousel";
+  import { fly } from "svelte/transition";
 
   export let name;
 
@@ -22,7 +23,7 @@
   }
 </script>
 
-<div class="container">
+<div class="container" in:fly={{ x: 200, duration: 500 }}>
   <header>
     <h1>{title}</h1>
     <h2>
