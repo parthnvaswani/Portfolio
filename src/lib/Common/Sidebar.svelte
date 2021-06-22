@@ -131,6 +131,7 @@
     position: fixed;
     height: 100%;
     width: var(--sidebar-width);
+    z-index: 1;
   }
   ul {
     list-style: none;
