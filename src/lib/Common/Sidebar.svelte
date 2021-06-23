@@ -66,7 +66,7 @@
     </li>
     <li>
       <a
-        href="https://www.linkedin.com/in/parth-vaswani-80b427174/"
+        href="https://www.linkedin.com/in/parthnvaswani/"
         target="blank"
         rel="noopener"
       >
