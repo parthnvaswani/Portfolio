@@ -2,14 +2,8 @@
   import { contactActive } from "../../store/store";
   import { set } from "../../API/contact";
 
-  let active;
-
-  contactActive.subscribe((value) => {
-    active = value;
-  });
-
   function closeContact() {
-    contactActive.update(() => false);
+    $contactActive = false;
   }
 
   const details = {
@@ -32,7 +26,7 @@
   }
 </script>
 
-<div class="backdrop" class:active>
+<div class="backdrop" class:active={$contactActive}>
   <div class="container">
     <h1 class="brand">Contact Me</h1>
     <div class="wrapper">

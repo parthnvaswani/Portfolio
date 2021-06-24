@@ -14,7 +14,7 @@
   ][new Date().getDay()];
 
   function openContact() {
-    contactActive.update(() => true);
+    $contactActive = true;
   }
 </script>
 

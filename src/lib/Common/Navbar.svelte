@@ -7,7 +7,7 @@
     active = !active;
   }
   function openContact() {
-    contactActive.update(() => true);
+    $contactActive = true;
   }
 </script>
 
