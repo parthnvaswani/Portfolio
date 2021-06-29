@@ -11,7 +11,7 @@
     </IntersectionObserver>
     <IntersectionObserver let:intersecting {top} {bottom}>
       <h2 class:intersecting>
-        I am a web designer & full-stack developer from India. I've worked with
+        I am a designer & full-stack developer from India. I've worked with
         most of the popular frameworks as a junior developer and freelancer. I
         specialise in creating interactive experiences, functional interfaces
         and secure & scalable backend. I am bachelors in computer applications
