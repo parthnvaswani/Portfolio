@@ -9,7 +9,7 @@
   <h1 class="title">Designer & Full-stack Developer</h1>
   <br />
   <h2 class="desc">
-    A web designer and full-stack developer from India.<br />
+    A designer and full-stack developer from India.<br />
     I create bespoke websites to help people go further online.
   </h2>
   <div class="image">
