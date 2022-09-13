@@ -192,7 +192,7 @@ const projects = [
     title: "Dev Hub",
     technologies: ["MongoDB", "ExpressJS", "React", "NodeJS"],
     source: "https://github.com/parthnvaswani/devhub",
-    website: "http://https://my-dev-hub.up.railway.app/",
+    website: "https://my-dev-hub.up.railway.app/",
     images: [devhubImg, devhubImg1, devhubImg2, devhubImg3, devhubImg4],
     description:
       "Built with MERN stack this website is a social network for developers.",
@@ -216,8 +216,8 @@ const projects = [
     resources: [
       {
         text: "The project is online at",
-        link: "http://https://my-dev-hub.up.railway.app/",
-        linkText: "http://https://my-dev-hub.up.railway.app/",
+        link: "https://my-dev-hub.up.railway.app/",
+        linkText: "https://my-dev-hub.up.railway.app/",
       },
       {
         text: "See the source code at",
