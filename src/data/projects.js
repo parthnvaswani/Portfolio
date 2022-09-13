@@ -75,8 +75,8 @@ const projects = [
       },
       {
         text: "The API and it's documentation is online at",
-        linkText: "http://the-food-adda.herokuapp.com/",
-        link: "http://the-food-adda.herokuapp.com/",
+        linkText: "http://the-food-adda.up.railway.app/",
+        link: "http://the-food-adda.up.railway.app/",
       },
       // {
       //   text: "See the source code at",
@@ -94,7 +94,7 @@ const projects = [
     title: "MSU Admission Portal",
     technologies: ["MongoDB", "ExpressJS", "VueJS", "NodeJS"],
     // source: "https://github.com/parthnvaswani/AdmissionPortal",
-    website: "https://admission-portal.herokuapp.com/",
+    website: "https://admission-portal.up.railway.app/",
     images: [
       admissionportalImg,
       admissionportalImg1,
@@ -131,8 +131,8 @@ const projects = [
     resources: [
       {
         text: "The project is online at",
-        link: "https://admission-portal.herokuapp.com/",
-        linkText: "https://admission-portal.herokuapp.com/",
+        link: "https://admission-portal.up.railway.app/",
+        linkText: "https://admission-portal.up.railway.app/",
       },
       {
         text: "The API documentation is online at",
@@ -192,7 +192,7 @@ const projects = [
     title: "Dev Hub",
     technologies: ["MongoDB", "ExpressJS", "React", "NodeJS"],
     source: "https://github.com/parthnvaswani/devhub",
-    website: "http://my-dev-hub.herokuapp.com/",
+    website: "http://https://my-dev-hub.up.railway.app/",
     images: [devhubImg, devhubImg1, devhubImg2, devhubImg3, devhubImg4],
     description:
       "Built with MERN stack this website is a social network for developers.",
@@ -216,8 +216,8 @@ const projects = [
     resources: [
       {
         text: "The project is online at",
-        link: "http://my-dev-hub.herokuapp.com/",
-        linkText: "http://my-dev-hub.herokuapp.com/",
+        link: "http://https://my-dev-hub.up.railway.app/",
+        linkText: "http://https://my-dev-hub.up.railway.app/",
       },
       {
         text: "See the source code at",
@@ -231,7 +231,7 @@ const projects = [
     title: "Multiplayer Game",
     technologies: ["Socket.io", "NodeJS", "ExpressJS"],
     source: "https://github.com/parthnvaswani/multiplayergame",
-    website: "https://parthmultigame.herokuapp.com/",
+    website: "https://multiplayergame.up.railway.app/",
     images: [
       multigameImg,
       multigameImg1,
@@ -257,8 +257,8 @@ const projects = [
     resources: [
       {
         text: "The project is online at",
-        link: "https://parthmultigame.herokuapp.com/",
-        linkText: "https://parthmultigame.herokuapp.com/",
+        link: "https://multiplayergame.up.railway.app/",
+        linkText: "https://multiplayergame.up.railway.app/",
       },
       {
         text: "See the source code at",
