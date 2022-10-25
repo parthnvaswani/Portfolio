@@ -35,7 +35,7 @@ const projects = [
     title: "The Food Adda",
     technologies: ["MongoDB", "ExpressJS", "React", "NodeJS"],
     // source: "https://github.com/parthnvaswani/the-food-adda",
-    website: "https://the-food-adda.netlify.app/",
+    website: "https://parthnvaswani.netlify.app/#food",
     images: [
       foodaddaImg,
       foodaddaImg1,
@@ -70,13 +70,13 @@ const projects = [
     resources: [
       {
         text: "The project is online at",
-        linkText: "https://the-food-adda.netlify.app/",
-        link: "https://the-food-adda.netlify.app/",
+        linkText: "https://parthnvaswani.netlify.app/#food",
+        link: "https://parthnvaswani.netlify.app/#food",
       },
       {
         text: "The API and it's documentation is online at",
-        linkText: "http://the-food-adda.up.railway.app/",
-        link: "http://the-food-adda.up.railway.app/",
+        linkText: "https://parthnvaswani.netlify.app/#foodapi",
+        link: "https://parthnvaswani.netlify.app/#foodapi",
       },
       // {
       //   text: "See the source code at",
@@ -94,7 +94,7 @@ const projects = [
     title: "MSU Admission Portal",
     technologies: ["MongoDB", "ExpressJS", "VueJS", "NodeJS"],
     // source: "https://github.com/parthnvaswani/AdmissionPortal",
-    website: "https://admission-portal.up.railway.app/",
+    website: "https://parthnvaswani.netlify.app/#admission",
     images: [
       admissionportalImg,
       admissionportalImg1,
@@ -131,8 +131,8 @@ const projects = [
     resources: [
       {
         text: "The project is online at",
-        link: "https://admission-portal.up.railway.app/",
-        linkText: "https://admission-portal.up.railway.app/",
+        link: "https://parthnvaswani.netlify.app/#admission",
+        linkText: "https://parthnvaswani.netlify.app/#admission",
       },
       {
         text: "The API documentation is online at",
@@ -192,7 +192,7 @@ const projects = [
     title: "Dev Hub",
     technologies: ["MongoDB", "ExpressJS", "React", "NodeJS"],
     source: "https://github.com/parthnvaswani/devhub",
-    website: "https://my-dev-hub.up.railway.app/",
+    website: "https://parthnvaswani.netlify.app/#devhub",
     images: [devhubImg, devhubImg1, devhubImg2, devhubImg3, devhubImg4],
     description:
       "Built with MERN stack this website is a social network for developers.",
@@ -216,8 +216,8 @@ const projects = [
     resources: [
       {
         text: "The project is online at",
-        link: "https://my-dev-hub.up.railway.app/",
-        linkText: "https://my-dev-hub.up.railway.app/",
+        link: "https://parthnvaswani.netlify.app/#devhub",
+        linkText: "https://parthnvaswani.netlify.app/#devhub",
       },
       {
         text: "See the source code at",
@@ -231,7 +231,7 @@ const projects = [
     title: "Multiplayer Game",
     technologies: ["Socket.io", "NodeJS", "ExpressJS"],
     source: "https://github.com/parthnvaswani/multiplayergame",
-    website: "https://multiplayergame.up.railway.app/",
+    website: "https://parthnvaswani.netlify.app/#multi",
     images: [
       multigameImg,
       multigameImg1,
@@ -257,8 +257,8 @@ const projects = [
     resources: [
       {
         text: "The project is online at",
-        link: "https://multiplayergame.up.railway.app/",
-        linkText: "https://multiplayergame.up.railway.app/",
+        link: "https://parthnvaswani.netlify.app/#multi",
+        linkText: "https://parthnvaswani.netlify.app/#multi",
       },
       {
         text: "See the source code at",
