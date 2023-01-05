@@ -1,4 +1,5 @@
 import { initializeApp } from "firebase/app";
+import { initializeAppCheck, ReCaptchaV3Provider } from "firebase/app-check";
 
 const firebaseConfig = {
   apiKey: "AIzaSyBdGz1Ss_Ncbxf5Gi8_CBwgXNKUUWgJTv8",
@@ -11,5 +12,10 @@ const firebaseConfig = {
 };
 
 const firebaseApp = initializeApp(firebaseConfig);
+
+const appCheck = initializeAppCheck(firebaseApp, {
+  provider: new ReCaptchaV3Provider("6Ldqk9MjAAAAAP823b1ogaY0a35PXn0bf7HNLqVE"),
+  isTokenAutoRefreshEnabled: true,
+});
 
 export default firebaseApp;
