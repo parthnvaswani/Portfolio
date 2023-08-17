@@ -18,7 +18,7 @@
     <span class="bar" />
   </div>
   <div class="links" class:active>
-    <a href="https://parthnvaswani9.wordpress.com/" target="blank">Blog</a>
+    <a href="https://www.codeandcoin.net/" target="blank">Blog</a>
     <a href="Docs/Parth_Resume.pdf" target="blank">Resume</a>
     <button class="contactbutt" on:click={openContact}>Contact Me</button>
   </div>
